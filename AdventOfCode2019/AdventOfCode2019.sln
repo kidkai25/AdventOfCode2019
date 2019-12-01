@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.161
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2019.Day01", "AdventOfCode2019.Day01\AdventOfCode2019.Day01.csproj", "{212278E6-31D0-4336-86F2-3064030618A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode2019.Common", "AdventOfCode2019.Common\AdventOfCode2019.Common.csproj", "{30123503-208F-474C-9BD6-9E71B11D4B76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{212278E6-31D0-4336-86F2-3064030618A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212278E6-31D0-4336-86F2-3064030618A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212278E6-31D0-4336-86F2-3064030618A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212278E6-31D0-4336-86F2-3064030618A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30123503-208F-474C-9BD6-9E71B11D4B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30123503-208F-474C-9BD6-9E71B11D4B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30123503-208F-474C-9BD6-9E71B11D4B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30123503-208F-474C-9BD6-9E71B11D4B76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {360C2274-AB5A-4761-9C5A-F6A3758D6B8A}
+	EndGlobalSection
+EndGlobal
