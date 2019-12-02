@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace AdventOfCode2019.Common
 {
@@ -24,6 +25,18 @@ namespace AdventOfCode2019.Common
 
 				yield return line!;
 			}
+		}
+
+		public async static Task<string> ReadLineAsync(string fileName)
+		{
+			var lines = ReadLinesAsync(fileName);
+
+			await foreach (var line in lines)
+			{
+				return line;
+			}
+
+			throw new Exception();
 		}
 	}
 }
